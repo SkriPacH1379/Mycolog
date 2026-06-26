@@ -12,18 +12,25 @@
 - Интеграция с **Entity Framework 6 + SQL Server**
 
 ## Структура проекта
+```bash
 Mycolog/
-├── Mycolog/                  # Основной WPF-проект
-│   ├── MainWindow.xaml       # Главное окно
+├── Mycolog/                          # Основной WPF-проект
+│   ├── MainWindow.xaml               # Главное окно
 │   ├── MainWindow.xaml.cs
-│   ├── MushroomCulture.cs    # Модель культуры
-│   ├── MycologContext.cs     # DbContext
-│   ├── DatabaseInitializer.cs # Начальные данные
-│   ├── DataDictionaries.cs   # Справочники
-│   └── Styles/Styles.xaml
-├── Mycolog.Tests/            # Unit-тесты (MSTest)
-├── SQL_Code.sql              # SQL-скрипт создания базы данных
-└── EntityFramework.dll       # (включены в архив)
+│   ├── MushroomCulture.cs            # Модель культуры
+│   ├── MycologContext.cs             # DbContext EF
+│   ├── DatabaseInitializer.cs        # Начальные данные
+│   ├── DataDictionaries.cs           # Справочники (виды, штаммы и т.д.)
+│   ├── App.xaml
+│   ├── App.xaml.cs
+│   └── Styles/
+│       └── Styles.xaml
+├── Mycolog.Tests/                    # Unit-тесты (MSTest)
+├── SQL_Code.sql                      # SQL-скрипт создания базы данных
+├── Mycolog.sln
+└── EntityFramework.dll
+    └── EntityFramework.SqlServer.dll
+```
 ## Технологии
 
 - **C# + WPF** (.NET Framework 4.8)
