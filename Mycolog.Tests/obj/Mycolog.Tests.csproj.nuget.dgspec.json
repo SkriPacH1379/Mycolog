@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\barma\\OneDrive\\Desktop\\Уч\\PR_Praktic\\Mycolog\\Mycolog.Tests\\Mycolog.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\barma\\OneDrive\\Desktop\\Уч\\PR_Praktic\\Mycolog\\Mycolog.Tests\\Mycolog.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\barma\\OneDrive\\Desktop\\Уч\\PR_Praktic\\Mycolog\\Mycolog.Tests\\Mycolog.Tests.csproj",
+        "projectName": "Mycolog.Tests",
+        "projectPath": "C:\\Users\\barma\\OneDrive\\Desktop\\Уч\\PR_Praktic\\Mycolog\\Mycolog.Tests\\Mycolog.Tests.csproj",
+        "packagesPath": "C:\\Users\\barma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\barma\\OneDrive\\Desktop\\Уч\\PR_Praktic\\Mycolog\\Mycolog.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\barma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\barma\\OneDrive\\Desktop\\Уч\\PR_Praktic\\Mycolog\\Mycolog\\Mycolog.csproj": {
+                "projectPath": "C:\\Users\\barma\\OneDrive\\Desktop\\Уч\\PR_Praktic\\Mycolog\\Mycolog\\Mycolog.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.2, )",
+              "versionOverride": "[4.0.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[4.0.2, )",
+              "versionOverride": "[4.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[18.0.1, )",
+              "versionOverride": "[18.0.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\barma\\OneDrive\\Desktop\\Уч\\PR_Praktic\\Mycolog\\Mycolog\\Mycolog.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\barma\\OneDrive\\Desktop\\Уч\\PR_Praktic\\Mycolog\\Mycolog\\Mycolog.csproj",
+        "projectName": "Mycolog",
+        "projectPath": "C:\\Users\\barma\\OneDrive\\Desktop\\Уч\\PR_Praktic\\Mycolog\\Mycolog\\Mycolog.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

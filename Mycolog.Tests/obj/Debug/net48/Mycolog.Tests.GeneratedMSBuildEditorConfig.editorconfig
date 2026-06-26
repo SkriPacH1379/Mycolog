@@ -1,0 +1,9 @@
+is_global = true
+build_property.IsMSTestTestAdapterReferenced = true
+build_property.RootNamespace = Mycolog.Tests
+build_property.ProjectDir = C:\Users\barma\OneDrive\Desktop\Уч\PR_Praktic\Mycolog\Mycolog.Tests\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
